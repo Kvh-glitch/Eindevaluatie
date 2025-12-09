@@ -14,19 +14,26 @@ namespace AuctionHouseImport
 
         static void Main(string[] args)
         {
-            Console.WriteLine("+++ AuctionHouse Dataset Import +++");
+            if (!TestConnection())
+            {
+                Console.WriteLine("Cannot continue without a working database connection.");
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+                return;
+            }
+            Console.WriteLine("Importing AuctionHouse Dataset");
             Console.WriteLine("Importing rarities...\n");
 
             ImportRarities();
 
             Console.WriteLine("\nDone. Press any key to start importing items.");
             Console.ReadKey();
-            
+
             Console.WriteLine("\nImporting items...\n");
             ImportItems();
             if (errorLines.Count > 0)
             {
-                string errorLogFileName = "ItemImportErrors.txt";
+                string errorLogFileName = "ImportErrorLog.txt";
                 File.WriteAllLines(errorLogFileName, errorLines);
                 Console.WriteLine($"\nImporting completed with {errorLines.Count} errors. See '{errorLogFileName}' for details.");
             }
@@ -36,13 +43,13 @@ namespace AuctionHouseImport
             }
             Console.WriteLine("\nPress any key to exit.");
             Console.ReadKey();
-           
+
 
         }
 
         private static void ImportRarities()
         {
-            
+
             if (!File.Exists(RaritiesFileName))
             {
                 Console.WriteLine($"ERROR: File '{RaritiesFileName}' not found.");
@@ -116,11 +123,11 @@ namespace AuctionHouseImport
                 }
 
             }
-            
+
         }
         private static void ImportItems()
         {
-            
+
             if (!File.Exists(ItemsFileName))
             {
                 Console.WriteLine($"ERROR: File '{ItemsFileName}' not found.");
@@ -137,20 +144,20 @@ namespace AuctionHouseImport
                 {
                     truncateCmd.ExecuteNonQuery();
                 }
-                
+
                 var rarityCache = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
-                
+
                 using (var readerCmd = new SqlCommand("SELECT Id, Name FROM Rarities;", connection))
                 using (var reader = readerCmd.ExecuteReader())
+                {
+                    while (reader.Read())
                     {
-                        while (reader.Read())
-                        {
-                            int id = reader.GetInt32(0);
-                            string name = reader.GetString(1);
-                            rarityCache[name] = id;
-                        }
+                        int id = reader.GetInt32(0);
+                        string name = reader.GetString(1);
+                        rarityCache[name] = id;
                     }
-                
+                }
+
                 using (var insertCmd = new SqlCommand(
                     "INSERT INTO Items (Name, RarityId) VALUES (@name, @rarityId);",
                     connection))
@@ -204,10 +211,10 @@ namespace AuctionHouseImport
                             Console.WriteLine($"[DB ERROR] Could not insert item '{cleanName}': {ex.Message}");
                         }
                     }
-                    
+
                 }
             }
-            
+
         }
 
         private static void LogError(string source, int lineNumber, string message, string rawLine)
@@ -217,5 +224,24 @@ namespace AuctionHouseImport
             Console.WriteLine(consoleLine);
             errorLines.Add(fileLine);
         }
-    }
+        private static bool TestConnection()
+        {
+            Console.WriteLine("Testing database connection...");
+
+            using (var connection = DataBaseConnection.CreateConnection())
+                {
+                try
+                {
+                    connection.Open();
+                    Console.WriteLine("Database connection successful.");
+                    return true;
+                }
+                catch (Exception ex)
+                    {
+                    Console.WriteLine($"Database connection failed: {ex.Message}");
+                    return false;
+                    }
+                }
+        }
+    } 
 }

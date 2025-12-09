@@ -54,32 +54,15 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "rarities.csv",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
-              "RelativeDocumentMoniker": "AuctionHouseImport\\rarities.csv",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
-              "RelativeToolTip": "AuctionHouseImport\\rarities.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-12-09T14:36:59.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataBaseConnection.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
-              "RelativeDocumentMoniker": "AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
-              "RelativeToolTip": "AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T13:57:11.026Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
             },
             {
               "$type": "Document",
@@ -87,9 +70,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
               "RelativeDocumentMoniker": "AuctionHouseImport\\Program.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
-              "RelativeToolTip": "AuctionHouseImport\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA8wB4AAABRAAAAAAAAAA==",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs*",
+              "RelativeToolTip": "AuctionHouseImport\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T13:32:30.694Z",
               "EditorCaption": ""
@@ -114,6 +97,30 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-09T13:58:12.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBaseConnection.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
+              "RelativeDocumentMoniker": "AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
+              "RelativeToolTip": "AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:57:11.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rarities.csv",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
+              "RelativeDocumentMoniker": "AuctionHouseImport\\rarities.csv",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
+              "RelativeToolTip": "AuctionHouseImport\\rarities.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-12-09T14:36:59.026Z"
             },
             {
               "$type": "Document",
