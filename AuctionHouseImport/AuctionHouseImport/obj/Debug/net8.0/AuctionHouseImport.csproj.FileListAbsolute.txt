@@ -1,0 +1,132 @@
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.exe
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.deps.json
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.runtimeconfig.json
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.pdb
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.AssemblyInfoInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.AssemblyInfo.cs
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.csproj.CoreCompileInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\refint\AuctionHouseImport.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.pdb
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.genruntimeconfig.cache
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\ref\AuctionHouseImport.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\rarities.csv
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.csproj.AssemblyReference.cache
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionH.12F22A81.Up2Date
+C:\Users\kurtv\source\repos\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\items.csv
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.exe
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\items.csv
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\rarities.csv
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.deps.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.runtimeconfig.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\AuctionHouseImport.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Azure.Core.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Azure.Identity.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.ClientModel.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Memory.Data.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.csproj.AssemblyReference.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.GeneratedMSBuildEditorConfig.editorconfig
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.AssemblyInfoInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.AssemblyInfo.cs
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.csproj.CoreCompileInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionH.12F22A81.Up2Date
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\refint\AuctionHouseImport.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.genruntimeconfig.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\ref\AuctionHouseImport.dll

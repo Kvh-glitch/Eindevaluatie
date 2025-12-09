@@ -1,0 +1,20 @@
+Invalid Format Line 62: ,Rare
+Unknown Rarity Line 84: Nightfall Tome,Legandary
+Invalid Format Line 143: ,Uncommon
+Unknown Rarity Line 308: Bloodstone Shield,Rrare
+Invalid Format Line 339: Arcane Mask
+Unknown Rarity Line 350: Steel Totem,Rrare
+Invalid Format Line 357: Shadow Sword
+Invalid Format Line 468: ,Epic
+Invalid Format Line 585: ,Rare
+Invalid Format Line 600: Ancient Charm
+Invalid Format Line 623: Ancient Tome
+Unknown Rarity Line 658: Runic Sword,Uncommen
+Unknown Rarity Line 692: Nightfall Amulet,Un�ommon
+Unknown Rarity Line 707: Shadow Cape,Rrare
+Unknown Rarity Line 713: Health Poti?n, Commmon
+Unknown Rarity Line 725: Feral Helm,Epik
+Invalid Format Line 797: ???
+Unknown Rarity Line 839: Silver Elixir,Rrare
+Invalid Format Line 944: Skyborn Spear
+Invalid Format Line 946: Arcane Dagger,
