@@ -130,3 +130,4 @@ C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionH
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.pdb
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.genruntimeconfig.cache
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\ref\AuctionHouseImport.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouseImport\AuctionHouseImport\obj\Debug\net8.0\AuctionHouseImport.sourcelink.json

@@ -10,6 +10,8 @@ namespace AuctionHouseImport
 
         private const string ItemsFileName = "items.csv";
 
+        private static List<string> errorLines = new List<string>();
+
         static void Main(string[] args)
         {
             Console.WriteLine("+++ AuctionHouse Dataset Import +++");
@@ -22,148 +24,103 @@ namespace AuctionHouseImport
             
             Console.WriteLine("\nImporting items...\n");
             ImportItems();
-            Console.WriteLine("\nDone. Press any key to exit.");
+            if (errorLines.Count > 0)
+            {
+                string errorLogFileName = "ItemImportErrors.txt";
+                File.WriteAllLines(errorLogFileName, errorLines);
+                Console.WriteLine($"\nImporting completed with {errorLines.Count} errors. See '{errorLogFileName}' for details.");
+            }
+            else
+            {
+                Console.WriteLine("\nImport completed successfully with no errors.");
+            }
+            Console.WriteLine("\nPress any key to exit.");
             Console.ReadKey();
-
-
-
-            //Console.WriteLine("Testing connection...");
-
-            //TestConnection();
+           
 
         }
 
-
-        //private static void TestConnection()
-        //{
-        //    Console.WriteLine("Testing SQL connection...");
-
-        //    try
-        //    {
-        //        using (var connection = new SqlConnection(DataBaseConnection.ConnectionString))
-        //        {
-        //            connection.Open();
-        //            Console.WriteLine("SUCCESS: Connected to database!");
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("ERROR: Could not connect.");
-        //        Console.WriteLine(ex.Message);
-        //    }
-        //}
-
-
         private static void ImportRarities()
         {
-            var errorLines = new List<string>();
+            
             if (!File.Exists(RaritiesFileName))
             {
                 Console.WriteLine($"ERROR: File '{RaritiesFileName}' not found.");
                 return;
             }
             Console.WriteLine($"Importing rarities from '{RaritiesFileName}'...");
-
-            using (var connection = DataBaseConnection.CreateConnection())
-            {
-                connection.Open();
-                using (var cmd = new SqlCommand("TRUNCATE TABLE Rarities;", connection))
-                {
-                    cmd.ExecuteNonQuery();
-                }
-            }
-
             string[] lines = File.ReadAllLines(RaritiesFileName);
             int lineNumber = 0;
             bool isFirstLine = true;
 
-            foreach (string rawLine in lines)
+            using (var connection = DataBaseConnection.CreateConnection())
             {
-                lineNumber++;
-                string line = rawLine.Trim();
-
-
-                if (string.IsNullOrWhiteSpace(line))
-                    continue;
-
-                if (isFirstLine)
+                connection.Open();
+                using (var truncateCmd = new SqlCommand("TRUNCATE TABLE Rarities;", connection))
                 {
-                    isFirstLine = false;
-                   
-                    var headerLower = line.ToLowerInvariant();
-                    if (headerLower.Contains("name") && (headerLower.Contains("cost") || headerLower.Contains("base")))
+                    truncateCmd.ExecuteNonQuery();
+                }
+
+                using (var insertCmd = new SqlCommand(
+                    "INSERT INTO Rarities (Name, BaseCost) VALUES (@name, @basecost);",
+                    connection))
+                {
+                    insertCmd.Parameters.Add(new SqlParameter("@name", SqlDbType.NVarChar, 100));
+                    insertCmd.Parameters.Add(new SqlParameter("@basecost", SqlDbType.Int));
+                    foreach (string rawLine in lines)
                     {
-                        Console.WriteLine($"[INFO] Skipping header line: '{line}'");
-                        continue;
-                    }
-                }
-
-                
-                string[] parts = line.Split(',');
-                if (parts.Length != 2)
-                {
-                    Console.WriteLine($"[Line {lineNumber}] INVALID FORMAT (expected 2 columns): '{line}'");
-                    errorLines.Add($"Invalid Format Line {lineNumber}: {line}");
-                    continue;
-                }
-
-                string name = parts[0].Trim().Trim('"');
-                string baseCostText = parts[1].Trim().Trim('"');
-
-                if (string.IsNullOrWhiteSpace(name))
-                {
-                    Console.WriteLine($"[Line {lineNumber}] INVALID NAME: '{line}' , skipping");
-                    errorLines.Add($"Invalid Name Line {lineNumber}: {line}");
-                    continue;
-                }
-
-                if (!int.TryParse(baseCostText, out int baseCost) || baseCost <= 0)
-                {
-                    Console.WriteLine($"[Line {lineNumber}] INVALID BASE COST: '{line}' , skipping");
-                    errorLines.Add($"Invalid Base Cost Line {lineNumber}: {line}");
-                    continue;
-                }
-
-                
-                Console.WriteLine($"[OK] Line {lineNumber}: Name = '{name}', BaseCost = {baseCost}");
-
-                try
-                {
-                    using (var connection = DataBaseConnection.CreateConnection())
-                    {
-                        connection.Open();
-
-                        using (var cmd = new SqlCommand(
-                            "INSERT INTO Rarities (Name, BaseCost) VALUES (@name, @cost);",
-                            connection))
+                        lineNumber++;
+                        string line = rawLine.Trim();
+                        if (string.IsNullOrWhiteSpace(line))
+                            continue;
+                        if (isFirstLine)
                         {
-                            cmd.Parameters.Add(new SqlParameter("@name", name));
-                            cmd.Parameters.Add(new SqlParameter("@cost", baseCost));
-
-                            cmd.ExecuteNonQuery();
+                            isFirstLine = false;
+                            var headerLower = line.ToLowerInvariant();
+                            if (headerLower.Contains("name") && (headerLower.Contains("basecost") || headerLower.Contains("base")))
+                            {
+                                Console.WriteLine($"[INFO] Skipping header line: '{line}'");
+                                continue;
+                            }
+                        }
+                        string[] parts = line.Split(',');
+                        if (parts.Length != 2)
+                        {
+                            LogError("RARITIES", lineNumber, "INVALID FORMAT (expected 2 columns)", line);
+                            continue;
+                        }
+                        string name = parts[0].Trim().Trim('"');
+                        string baseCostText = parts[1].Trim().Trim('"');
+                        if (string.IsNullOrWhiteSpace(name))
+                        {
+                            LogError("RARITIES", lineNumber, "INVALID NAME", line);
+                            continue;
+                        }
+                        if (!int.TryParse(baseCostText, out int baseCost) || baseCost <= 0)
+                        {
+                            LogError("RARITIES", lineNumber, "INVALID BASE COST", line);
+                            continue;
+                        }
+                        insertCmd.Parameters["@name"].Value = name;
+                        insertCmd.Parameters["@basecost"].Value = baseCost;
+                        try
+                        {
+                            insertCmd.ExecuteNonQuery();
+                            Console.WriteLine($"[OK] Line {lineNumber}: Name = '{name}', BaseCost = {baseCost}");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"[DB ERROR] Could not insert rarity '{name}': {ex.Message}");
                         }
                     }
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"[DB ERROR] Could not insert rarity '{name}': {ex.Message}");
-                }
 
             }
-            if (errorLines.Count > 0)
-            {
-                File.WriteAllLines("rarities_import_errors.txt", errorLines);
-                Console.WriteLine($"\nSaved {errorLines.Count} error lines to 'rarity_import_errors.txt'");
-            }
-            else
-            {
-                Console.WriteLine("No errors detected during item import.");
-            }
-
+            
         }
         private static void ImportItems()
         {
-            var errorLines = new List<string>();
+            
             if (!File.Exists(ItemsFileName))
             {
                 Console.WriteLine($"ERROR: File '{ItemsFileName}' not found.");
@@ -180,12 +137,11 @@ namespace AuctionHouseImport
                 {
                     truncateCmd.ExecuteNonQuery();
                 }
-
-
+                
                 var rarityCache = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+                
                 using (var readerCmd = new SqlCommand("SELECT Id, Name FROM Rarities;", connection))
-                {
-                    using (var reader = readerCmd.ExecuteReader())
+                using (var reader = readerCmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
@@ -194,7 +150,7 @@ namespace AuctionHouseImport
                             rarityCache[name] = id;
                         }
                     }
-                }
+                
                 using (var insertCmd = new SqlCommand(
                     "INSERT INTO Items (Name, RarityId) VALUES (@name, @rarityId);",
                     connection))
@@ -214,8 +170,7 @@ namespace AuctionHouseImport
                         var parts = rawParts.Select(p => p.Trim()).Where(p => !string.IsNullOrWhiteSpace(p)).ToList();
                         if (parts.Count < 2)
                         {
-                            Console.WriteLine($"[Line {lineNumber}] INVALID FORMAT (expected name + rarity): '{line}', skipping");
-                            errorLines.Add($"Invalid Format Line {lineNumber}: {line}");
+                            LogError("ITEMS", lineNumber, "INVALID FORMAT (expected at least 2 columns)", line);
                             continue;
                         }
                         string rawName = parts[0];
@@ -223,21 +178,18 @@ namespace AuctionHouseImport
                         string cleanName = rawName.Replace("#", "").Trim();
                         if (string.IsNullOrWhiteSpace(cleanName))
                         {
-                            Console.WriteLine($"[Line {lineNumber}] MISSING NAME: '{line}' , skipping");
-                            errorLines.Add($"Missing Name Line {lineNumber}: {line}");
+                            LogError("ITEMS", lineNumber, "MISSING NAME", line);
                             continue;
                         }
                         if (string.IsNullOrWhiteSpace(rawRarity))
                         {
-                            Console.WriteLine($"[Line {lineNumber}] MISSING RARITY: '{line}' , skipping");
-                            errorLines.Add($"Missing Rarity Line {lineNumber}: {line}");
+                            LogError("ITEMS", lineNumber, "MISSING RARITY", line);
                             continue;
                         }
                         string cleanRarity = rawRarity.Trim().Trim('"');
                         if (!rarityCache.TryGetValue(cleanRarity, out int rarityId))
                         {
-                            Console.WriteLine($"[Line {lineNumber}] UNKNOWN RARITY '{cleanRarity}': '{line}' , skipping");
-                            errorLines.Add($"Unknown Rarity Line {lineNumber}: {line}");
+                            LogError("ITEMS", lineNumber, $"UNKNOWN RARITY '{cleanRarity}'", line);
                             continue;
                         }
                         nameParam.Value = cleanName;
@@ -252,57 +204,18 @@ namespace AuctionHouseImport
                             Console.WriteLine($"[DB ERROR] Could not insert item '{cleanName}': {ex.Message}");
                         }
                     }
-                    if (errorLines.Count > 0)
-                    {
-                        File.WriteAllLines("item_import_errors.txt", errorLines);
-                        Console.WriteLine($"\nSaved {errorLines.Count} error lines to 'item_import_errors.txt'");
-                    }
-                    else
-                    {
-                        Console.WriteLine("No errors detected during item import.");
-                    }
+                    
                 }
-
-
-
             }
             
-            //foreach (string rawLine in lines)
-            //{
-            //    lineNumber++;
-            //    string line = rawLine.Trim();
+        }
 
-            //    if (string.IsNullOrWhiteSpace(line))
-            //        continue;
-            //    line = line.Replace(";", ",");
-            //    string[] rawParts = line.Split(',');
-            //    var parts = rawParts.Select(p => p.Trim()).Where(p => !string.IsNullOrWhiteSpace(p)).ToList();
-
-            //    if (parts.Count < 2)
-            //    {
-            //        Console.WriteLine($"[Line {lineNumber}] INVALID FORMAT (expected name + rarity): '{line}'");
-            //        continue;
-            //    }
-            //    string rawName = parts[0];
-            //    string rawRarity = parts[1];
-            //    string cleanName = rawName.Replace("#", "").Trim();
-
-            //    if (string.IsNullOrWhiteSpace(cleanName))
-            //    {
-            //        Console.WriteLine($"[Line {lineNumber}] MISSING NAME: '{line}' , skipping");
-            //        continue;
-            //    }
-            //    if (string.IsNullOrWhiteSpace(rawRarity))
-            //    {
-            //        Console.WriteLine($"[Line {lineNumber}] MISSING RARITY: '{line}' , skipping");
-            //        continue;
-            //    }
-
-            //    string cleanRarity = rawRarity.Trim();
-            //    Console.WriteLine($"[OK] Line {lineNumber}: Name = '{cleanName}', Rarity = '{cleanRarity}'");
-
-            //}
-            
+        private static void LogError(string source, int lineNumber, string message, string rawLine)
+        {
+            string consoleLine = $"[ERROR] Line {lineNumber}: {message} | Line: '{rawLine}'";
+            string fileLine = $"[{source}] Line {lineNumber}: {message}: '{rawLine}'";
+            Console.WriteLine(consoleLine);
+            errorLines.Add(fileLine);
         }
     }
 }
