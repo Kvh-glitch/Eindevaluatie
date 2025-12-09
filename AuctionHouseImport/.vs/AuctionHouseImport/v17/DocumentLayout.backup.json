@@ -7,19 +7,23 @@
       "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\items.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\items.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\rarities.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\rarities.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\databaseconfig\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\databaseconfig\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\auctionhouseimport.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\auctionhouseimport.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\auctionhouseimport.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\auctionhouseimport.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouseimport\\auctionhouseimport\\databaseconfig\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F31CD11-9D18-4161-8C24-C29093FD015C}|AuctionHouseImport\\AuctionHouseImport.csproj|solutionrelative:auctionhouseimport\\databaseconfig\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Rarities.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -50,19 +54,30 @@
         },
         {
           "DockedWidth": 877,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Items [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql",
+              "ToolTip": "dbo.Items [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T18:43:22.924Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "items.csv",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\items.csv",
+              "RelativeDocumentMoniker": "AuctionHouseImport\\items.csv",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\items.csv",
+              "RelativeToolTip": "AuctionHouseImport\\items.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-12-09T18:16:34.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -70,9 +85,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
               "RelativeDocumentMoniker": "AuctionHouseImport\\Program.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs*",
-              "RelativeToolTip": "AuctionHouseImport\\Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
+              "RelativeToolTip": "AuctionHouseImport\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T13:32:30.694Z",
               "EditorCaption": ""
@@ -80,15 +95,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Items.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-09T15:33:34.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AuctionHouseImport.csproj",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\AuctionHouseImport.csproj",
               "RelativeDocumentMoniker": "AuctionHouseImport\\AuctionHouseImport.csproj",
@@ -96,11 +102,25 @@
               "RelativeToolTip": "AuctionHouseImport\\AuctionHouseImport.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T13:58:12.247Z"
+              "WhenOpened": "2025-12-09T13:58:12.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "rarities.csv",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
+              "RelativeDocumentMoniker": "AuctionHouseImport\\rarities.csv",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
+              "RelativeToolTip": "AuctionHouseImport\\rarities.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-12-09T14:36:59.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DataBaseConnection.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
               "RelativeDocumentMoniker": "AuctionHouseImport\\DatabaseConfig\\DataBaseConnection.cs",
@@ -112,19 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "rarities.csv",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
-              "RelativeDocumentMoniker": "AuctionHouseImport\\rarities.csv",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\rarities.csv",
-              "RelativeToolTip": "AuctionHouseImport\\rarities.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-12-09T14:36:59.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "dbo.Rarities.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Rarities.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Rarities.sql",

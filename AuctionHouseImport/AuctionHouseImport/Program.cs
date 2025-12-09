@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using AuctionHouseImport.DatabaseConfig;
 using System.Data;
+using Microsoft.VisualBasic;
 
 namespace AuctionHouseImport
 {
@@ -10,6 +11,8 @@ namespace AuctionHouseImport
 
         private const string ItemsFileName = "items.csv";
 
+        private delegate void ImportHandler(string[] lines, SqlConnection connection);
+        
         private static List<string> errorLines = new List<string>();
 
         static void Main(string[] args)
@@ -46,6 +49,27 @@ namespace AuctionHouseImport
 
 
         }
+        private static bool TestConnection()
+        {
+            Console.WriteLine("Testing database connection...");
+
+            using (var connection = DataBaseConnection.CreateConnection())
+            {
+                try
+                {
+                    connection.Open();
+                    Console.WriteLine("Database connection successful.");
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Database connection failed: {ex.Message}");
+                    return false;
+                }
+            }
+        }
+
+        
 
         private static void ImportRarities()
         {
@@ -224,24 +248,7 @@ namespace AuctionHouseImport
             Console.WriteLine(consoleLine);
             errorLines.Add(fileLine);
         }
-        private static bool TestConnection()
-        {
-            Console.WriteLine("Testing database connection...");
-
-            using (var connection = DataBaseConnection.CreateConnection())
-                {
-                try
-                {
-                    connection.Open();
-                    Console.WriteLine("Database connection successful.");
-                    return true;
-                }
-                catch (Exception ex)
-                    {
-                    Console.WriteLine($"Database connection failed: {ex.Message}");
-                    return false;
-                    }
-                }
-        }
+        
+        
     } 
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionHouseImport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c070fd0e1a15bd2569750bc8177913303adafc5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a85b7914db2b6e810ae2b32dd9fb13d36f7f903")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionHouseImport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionHouseImport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
