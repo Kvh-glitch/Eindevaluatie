@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HVIGdCh0vZM=",
+  "dgSpecHash": "aV1Nfp5JAdQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kurtv\\source\\repos\\AuctionHouse\\AuctionHouse.Persistent\\AuctionHouse.Persistent.csproj",
+  "projectFilePath": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Persistent\\AuctionHouse.Persistent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kurtv\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\kurtv\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

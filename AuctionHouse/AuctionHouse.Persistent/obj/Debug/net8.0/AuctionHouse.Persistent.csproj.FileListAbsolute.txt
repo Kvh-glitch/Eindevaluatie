@@ -13,3 +13,19 @@ C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\refint\AuctionHouse.Persistent.dll
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.pdb
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\ref\AuctionHouse.Persistent.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.deps.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Domain.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.csproj.AssemblyReference.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.GeneratedMSBuildEditorConfig.editorconfig
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.AssemblyInfoInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.AssemblyInfo.cs
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.csproj.CoreCompileInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.sourcelink.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionH.C6BAC2EA.Up2Date
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\refint\AuctionHouse.Persistent.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\ref\AuctionHouse.Persistent.dll

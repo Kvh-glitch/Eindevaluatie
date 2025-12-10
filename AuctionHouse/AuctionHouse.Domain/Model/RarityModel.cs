@@ -50,7 +50,7 @@ using System.Threading.Tasks;
                 Name = name;
                 BaseCost = baseCost;
             }
-            public override string ToString() => $"{Name} (Base cost: {BaseCost})";
+            
         }
     }
 

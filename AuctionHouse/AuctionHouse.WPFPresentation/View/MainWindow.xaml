@@ -5,16 +5,27 @@
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <TextBlock Text="Rarities"
                    FontSize="18"
                    FontWeight="Bold"
+                   Grid.Row="0"
                    Margin="0,0,0,10"/>
+        
+        <Button Content="Show Items"
+                Width="120"
+                Height="30"
+                HorizontalAlignment="Left"
+                Grid.Row="1"
+                Margin="0,0,0,10"
+                Click="ShowItems_Click"/>
 
         <ListBox x:Name="RarityListBox"
-                 Grid.Row="1"
-                 DisplayMemberPath="Name"/>
+                 Grid.Row="2"/>
+        <!--DisplayMemberPath="Name"/>-->
     </Grid>
+    
 </Window>

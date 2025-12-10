@@ -11,5 +11,7 @@ namespace AuctionHouse.Domain.DTO
         public int Id { get; set; }          
         public string Name { get; set; } = string.Empty;
         public int BaseCost { get; set; }
+
+        public override string ToString() => $"{Name} (Base cost: {BaseCost})";
     }
 }

@@ -18,18 +18,19 @@ namespace AuctionHouse.WPFPresentation
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-           
-            IMapper<Rarity, RarityModel> mapper = new RarityMapper();
-            IRepository<RarityModel> repository = new RarityRepository(mapper);
 
-           
-            DomainController domainController = new DomainController(repository, mapper);
+            IMapper<Rarity, RarityModel> rarityMapper = new RarityMapper();
+            IRepository<RarityModel> rarityRepository = new RarityRepository(rarityMapper);
 
-           
+            
+            IMapper<Item, ItemModel> itemMapper = new ItemMapper();
+            IRepository<ItemModel> itemRepository = new ItemRepository(itemMapper);
+          
+            DomainController domainController = new DomainController(rarityRepository, rarityMapper, itemRepository, itemMapper);
+
             AuctionApplication application = new AuctionApplication(domainController);
 
-            
-            
+
         }
     }
 

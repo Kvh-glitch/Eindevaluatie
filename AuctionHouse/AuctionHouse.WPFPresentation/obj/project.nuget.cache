@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUX2SC4R0jw=",
+  "dgSpecHash": "xF+xWhBiSfU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kurtv\\source\\repos\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj",
+  "projectFilePath": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kurtv\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\kurtv\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

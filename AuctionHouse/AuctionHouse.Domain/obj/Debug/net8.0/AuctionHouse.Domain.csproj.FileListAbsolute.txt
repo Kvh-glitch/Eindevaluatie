@@ -9,3 +9,15 @@ C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\Au
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\refint\AuctionHouse.Domain.dll
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.pdb
 C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\ref\AuctionHouse.Domain.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.deps.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.AssemblyInfoInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.AssemblyInfo.cs
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.csproj.CoreCompileInputs.cache
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.sourcelink.json
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\refint\AuctionHouse.Domain.dll
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\ref\AuctionHouse.Domain.dll

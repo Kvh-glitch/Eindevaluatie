@@ -14,17 +14,23 @@ namespace AuctionHouse.Domain
     public class DomainController 
     {
         private readonly IRepository<RarityModel> _rarityRepository;
-        private readonly IMapper<Rarity, RarityModel> _mapper; 
+        private readonly IRepository<ItemModel> _itemRepository;
+        private readonly IMapper<Rarity, RarityModel> _mapper;
+        private readonly IMapper<Item, ItemModel> _itemMapper;
 
         public DomainController(
             IRepository<RarityModel> rarityRepository,
-            IMapper<Rarity, RarityModel> mapper)
+            IMapper<Rarity, RarityModel> mapper,
+            IRepository<ItemModel> itemRepository,
+            IMapper<Item, ItemModel> itemMapper)
         {
             _rarityRepository = rarityRepository ?? throw new ArgumentNullException(nameof(rarityRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _itemRepository = itemRepository;
+            _itemMapper = itemMapper;
         }
 
-        
+
         public Collection<Rarity> GetAllRarities()
         {
             
@@ -32,6 +38,12 @@ namespace AuctionHouse.Domain
             return _mapper.MapToDto(rarityModels);
         }
 
-        
+        public Collection<Item> GetAllItems()
+        {
+            Collection<ItemModel> models = _itemRepository.GetAll();
+            return _itemMapper.MapToDto(models);
+        }
+
+
     }
 }
