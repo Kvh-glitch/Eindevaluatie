@@ -1,0 +1,15 @@
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.deps.json
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Persistent.pdb
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Domain.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\bin\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.csproj.AssemblyReference.cache
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.AssemblyInfoInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.AssemblyInfo.cs
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.csproj.CoreCompileInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionH.C6BAC2EA.Up2Date
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\refint\AuctionHouse.Persistent.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\AuctionHouse.Persistent.pdb
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Persistent\obj\Debug\net8.0\ref\AuctionHouse.Persistent.dll

@@ -1,0 +1,11 @@
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.deps.json
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\bin\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.AssemblyInfoInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.AssemblyInfo.cs
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\refint\AuctionHouse.Domain.dll
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\AuctionHouse.Domain.pdb
+C:\Users\kurtv\source\repos\AuctionHouse\AuctionHouse.Domain\obj\Debug\net8.0\ref\AuctionHouse.Domain.dll

@@ -54,17 +54,20 @@
         },
         {
           "DockedWidth": 877,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "dbo.Items [Data]",
+              "Title": "dbo.Items.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql",
-              "ToolTip": "dbo.Items [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/pandora_sqlexpress/AuctionHouse/True/SqlTable/dbo.Items.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-09T18:43:22.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T18:43:22.924Z"
             },
             {
               "$type": "Document",
@@ -76,8 +79,7 @@
               "RelativeToolTip": "AuctionHouseImport\\items.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-12-09T18:16:34.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T18:16:34.383Z"
             },
             {
               "$type": "Document",
@@ -85,9 +87,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
               "RelativeDocumentMoniker": "AuctionHouseImport\\Program.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs",
-              "RelativeToolTip": "AuctionHouseImport\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouseImport\\AuctionHouseImport\\Program.cs*",
+              "RelativeToolTip": "AuctionHouseImport\\Program.cs*",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwKIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T13:32:30.694Z",
               "EditorCaption": ""
@@ -102,8 +104,7 @@
               "RelativeToolTip": "AuctionHouseImport\\AuctionHouseImport.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T13:58:12.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T13:58:12.247Z"
             },
             {
               "$type": "Document",
@@ -115,8 +116,7 @@
               "RelativeToolTip": "AuctionHouseImport\\rarities.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-12-09T14:36:59.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T14:36:59.026Z"
             },
             {
               "$type": "Document",
