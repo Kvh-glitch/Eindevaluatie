@@ -21,8 +21,7 @@
 *.aps
 
 # Visual Studio Code Cache
-.vs/ # Dit bevat de lokale Solution/User instellingen voor VS2017+
-
+.vs/ 
 # Solution and Project Files
 *.bak
 *.vssscc
@@ -32,7 +31,7 @@
 packages/
 *.nupkg
 # Exclude NuGet Cache
-!**/packages.config # Zorg ervoor dat de packages.config file WEL mee wordt genomen
+!**/packages.config 
 
 # Resharper / Code Analysis
 *.resharper
