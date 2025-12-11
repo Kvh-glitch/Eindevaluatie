@@ -14,15 +14,17 @@
                    FontWeight="Bold"
                    Grid.Row="0"
                    Margin="0,0,0,10"/>
-        
-        <Button Content="Show Items"
-                Width="120"
-                Height="30"
-                HorizontalAlignment="Left"
-                Grid.Row="1"
-                Margin="0,0,0,10"
-                Click="ShowItems_Click"/>
-
+        <StackPanel Grid.Row="1"
+            Orientation="Horizontal"
+            Margin="0,0,0,10">
+            <Button Content="Show Items"
+            Width="120"
+            Margin="0,0,10,0"
+            Click="ShowItems_Click"/>
+            <Button Content="Show Players"
+            Width="120"
+            Click="ShowPlayers_Click"/>
+        </StackPanel>
         <ListBox x:Name="RarityListBox"
                  Grid.Row="2"/>
         <!--DisplayMemberPath="Name"/>-->

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionHouse.Persistent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6cc181f4f57989442ecf969b30f3142cdf0879c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cd8c6d6fabeefc6701241cb75bdf2f39b2eef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionHouse.Persistent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionHouse.Persistent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

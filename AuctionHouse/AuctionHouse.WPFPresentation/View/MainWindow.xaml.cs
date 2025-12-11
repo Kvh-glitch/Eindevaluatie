@@ -54,5 +54,11 @@ namespace AuctionHouse.WPFPresentation.View
             var win = new ItemWindow(_domainController);
             win.Show();
         }
+
+        private void ShowPlayers_Click(object sender, RoutedEventArgs e)
+        {
+            var win = new PlayerWindow(_domainController);
+            win.Show();
+        }
     }
 }

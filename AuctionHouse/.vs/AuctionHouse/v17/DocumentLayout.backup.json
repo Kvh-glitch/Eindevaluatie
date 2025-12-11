@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\itemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\itemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\itemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\itemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90E8D312-48FE-4A3F-A86E-24007A8F2666}|AuctionHouse.Domain\\AuctionHouse.Domain.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.domain\\domaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90E8D312-48FE-4A3F-A86E-24007A8F2666}|AuctionHouse.Domain\\AuctionHouse.Domain.csproj|solutionrelative:auctionhouse.domain\\domaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4961234-A730-4ACA-91EF-BEAACF108ABA}|AuctionHouse.Persistent\\AuctionHouse.Persistent.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.persistent\\repository\\rarityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4961234-A730-4ACA-91EF-BEAACF108ABA}|AuctionHouse.Persistent\\AuctionHouse.Persistent.csproj|solutionrelative:auctionhouse.persistent\\repository\\rarityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{90E8D312-48FE-4A3F-A86E-24007A8F2666}|AuctionHouse.Domain\\AuctionHouse.Domain.csproj|solutionrelative:auctionhouse.domain\\model\\raritymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\itemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\itemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.wpfpresentation\\view\\itemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{84B7A426-A233-4A3F-ABD3-0C7ABB6A2589}|AuctionHouse.WPFPresentation\\AuctionHouse.WPFPresentation.csproj|solutionrelative:auctionhouse.wpfpresentation\\view\\itemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4961234-A730-4ACA-91EF-BEAACF108ABA}|AuctionHouse.Persistent\\AuctionHouse.Persistent.csproj|c:\\hogent\\jaar 3\\programmeren gevorderd 1\\evaluatiegithub\\eindevaluatie\\auctionhouse\\auctionhouse.persistent\\repository\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,76 +123,15 @@
         },
         {
           "DockedWidth": 877,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMapper.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Mapper\\IMapper.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Mapper\\IMapper.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Mapper\\IMapper.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\Mapper\\IMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T20:44:54.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Item.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\DTO\\Item.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Item.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\DTO\\Item.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T18:27:18.162Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Rarity.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Rarity.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\DTO\\Rarity.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Rarity.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\DTO\\Rarity.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:38:35.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemModel.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\ItemModel.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Model\\ItemModel.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\ItemModel.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\Model\\ItemModel.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T18:27:42.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Repository\\IRepository.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:43:34.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DomainController.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DomainController.cs",
               "RelativeDocumentMoniker": "AuctionHouse.Domain\\DomainController.cs",
@@ -200,115 +139,43 @@
               "RelativeToolTip": "AuctionHouse.Domain\\DomainController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:10:20.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T19:10:20.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuctionApplication.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionApplication.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\AuctionApplication.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionApplication.cs",
-              "RelativeToolTip": "AuctionHouse.WPFPresentation\\AuctionApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T20:24:00.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuctionHouse.Test.csproj",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Test\\AuctionHouse.Test.csproj",
-              "RelativeDocumentMoniker": "AuctionHouse.Test\\AuctionHouse.Test.csproj",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Test\\AuctionHouse.Test.csproj",
-              "RelativeToolTip": "AuctionHouse.Test\\AuctionHouse.Test.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T19:31:50.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuctionHouse.Domain.csproj",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
-              "RelativeToolTip": "AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T19:02:57.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\App.xaml.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\App.xaml.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\App.xaml.cs",
-              "RelativeToolTip": "AuctionHouse.WPFPresentation\\App.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T20:38:34.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml.cs",
               "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwDYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwDYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T20:11:36.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T20:11:36.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RarityRepository.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
-              "RelativeToolTip": "AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ItemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
+              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:59:46.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T20:04:32.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
-              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
+              "DocumentIndex": 0,
+              "Title": "ItemWindow.xaml",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
+              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
+              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-10T20:07:00.52Z",
+              "WhenOpened": "2025-12-10T20:03:55.742Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RarityModel.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\RarityModel.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Model\\RarityModel.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\RarityModel.cs",
-              "RelativeToolTip": "AuctionHouse.Domain\\Model\\RarityModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:10:08.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -316,20 +183,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ItemWindow.xaml.cs",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
-              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwDAAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Repository\\IRepository.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T20:04:32.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T19:43:34.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemModel.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\ItemModel.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Model\\ItemModel.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\ItemModel.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\Model\\ItemModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:27:42.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rarity.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Rarity.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\DTO\\Rarity.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Rarity.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\DTO\\Rarity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:38:35.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Item.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\DTO\\Item.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\DTO\\Item.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\DTO\\Item.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:27:18.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMapper.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Mapper\\IMapper.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Mapper\\IMapper.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Mapper\\IMapper.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\Mapper\\IMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:44:54.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuctionApplication.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionApplication.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\AuctionApplication.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\AuctionApplication.cs",
+              "RelativeToolTip": "AuctionHouse.WPFPresentation\\AuctionApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:24:00.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuctionHouse.Test.csproj",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Test\\AuctionHouse.Test.csproj",
+              "RelativeDocumentMoniker": "AuctionHouse.Test\\AuctionHouse.Test.csproj",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Test\\AuctionHouse.Test.csproj",
+              "RelativeToolTip": "AuctionHouse.Test\\AuctionHouse.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T19:31:50.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuctionHouse.Domain.csproj",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
+              "RelativeToolTip": "AuctionHouse.Domain\\AuctionHouse.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T19:02:57.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\App.xaml.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\App.xaml.cs",
+              "RelativeToolTip": "AuctionHouse.WPFPresentation\\App.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:38:34.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RarityRepository.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
+              "RelativeToolTip": "AuctionHouse.Persistent\\Repository\\RarityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:59:46.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
+              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-10T20:07:00.52Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "RarityModel.cs",
+              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\RarityModel.cs",
+              "RelativeDocumentMoniker": "AuctionHouse.Domain\\Model\\RarityModel.cs",
+              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.Domain\\Model\\RarityModel.cs",
+              "RelativeToolTip": "AuctionHouse.Domain\\Model\\RarityModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:10:08.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\App.xaml",
               "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\App.xaml",
@@ -349,20 +346,7 @@
               "RelativeToolTip": "AuctionHouse.Persistent\\Repository\\ItemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T19:30:40.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ItemWindow.xaml",
-              "DocumentMoniker": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
-              "RelativeDocumentMoniker": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
-              "ToolTip": "C:\\hogent\\jaar 3\\programmeren gevorderd 1\\EvaluatieGitHub\\Eindevaluatie\\AuctionHouse\\AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
-              "RelativeToolTip": "AuctionHouse.WPFPresentation\\View\\ItemWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-10T20:03:55.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T19:30:40.248Z"
             },
             {
               "$type": "Document",
@@ -374,8 +358,7 @@
               "RelativeToolTip": "AuctionHouse.Domain\\Mapper\\ItemMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T18:56:38.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T18:56:38.35Z"
             },
             {
               "$type": "Document",
@@ -387,8 +370,7 @@
               "RelativeToolTip": "AuctionHouse.Domain\\Mapper\\RarityMapper.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA1wCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T19:39:35.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T19:39:35.005Z"
             },
             {
               "$type": "Document",
