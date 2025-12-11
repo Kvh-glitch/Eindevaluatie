@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionHouse.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cd8c6d6fabeefc6701241cb75bdf2f39b2eef2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d535ab8c913e28d2d396e6b38c4919c43cab0f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionHouse.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionHouse.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
