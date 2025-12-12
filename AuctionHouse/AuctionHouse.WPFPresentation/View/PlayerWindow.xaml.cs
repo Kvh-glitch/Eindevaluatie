@@ -25,7 +25,7 @@ namespace AuctionHouse.WPFPresentation.View
     {
         private readonly DomainController _domainController;
         private ObservableCollection<Player> _players = new();
-        private ObservableCollection<OwnedItem> _inventory = new();
+        private ObservableCollection<PlayerItem> _inventory = new();
         public PlayerWindow(DomainController domainController)
         {
             InitializeComponent();
@@ -59,7 +59,7 @@ namespace AuctionHouse.WPFPresentation.View
                 try
                 {
                     var ownedItems = _domainController.GetInventoryForPlayer(selectedPlayer.Id);
-                    _inventory = new ObservableCollection<OwnedItem>(ownedItems);
+                    _inventory = new ObservableCollection<PlayerItem>(ownedItems);
                     InventoryListBox.ItemsSource = _inventory;
                 }
                 catch (Exception ex)
@@ -74,5 +74,56 @@ namespace AuctionHouse.WPFPresentation.View
                 InventoryListBox.ItemsSource = null;
             }
         }
+
+        private void GiveRandomItemButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (PlayerListBox.SelectedItem is Player selectedPlayer)
+            {
+                try
+                {
+                    _domainController.GiveRandomItemToPlayer(selectedPlayer.Id);
+                    var ownedItems = _domainController.GetInventoryForPlayer(selectedPlayer.Id);
+                    _inventory = new ObservableCollection<PlayerItem>(ownedItems);
+                    InventoryListBox.ItemsSource = _inventory;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error giving item: {ex.Message}",
+                        "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a player first.",
+                    "No Player Selected", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void RemoveOneItem_Click(object sender, RoutedEventArgs e)
+        {
+            if (InventoryListBox.SelectedItem is PlayerItem selectedItem &&
+                PlayerListBox.SelectedItem is Player selectedPlayer)
+            {
+                try
+                {
+                    _domainController.RemoveItemFromPlayer(selectedPlayer.Id, selectedItem.ItemId);
+                    var ownedItems = _domainController.GetInventoryForPlayer(selectedPlayer.Id);
+                    _inventory = new ObservableCollection<PlayerItem>(ownedItems);
+                    InventoryListBox.ItemsSource = _inventory;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error removing item: {ex.Message}",
+                        "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select an item to remove.",
+                    "No Item Selected", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        
     }
 }

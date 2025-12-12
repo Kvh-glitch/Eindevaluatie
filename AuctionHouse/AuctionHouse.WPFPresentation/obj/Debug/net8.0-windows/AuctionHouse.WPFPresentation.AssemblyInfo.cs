@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionHouse.WPFPresentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d535ab8c913e28d2d396e6b38c4919c43cab0f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6043f07fd9f136a01db32f12573b76c5b7da1d19")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionHouse.WPFPresentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionHouse.WPFPresentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\App.xaml
-3-1867696751
+4886763046
 
-9-1765888072
+10-1060252708
 219-912303721
-View\ItemWindow.xaml;View\MainWindow.xaml;View\PlayerWindow.xaml;
+View\AuctionWindow.xaml;View\ItemWindow.xaml;View\MainWindow.xaml;View\PlayerWindow.xaml;
 
 False
 

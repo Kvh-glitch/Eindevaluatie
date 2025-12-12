@@ -27,9 +27,11 @@ namespace AuctionHouse.WPFPresentation
             IMapper<Player, PlayerModel> playerMapper = new PlayerMapper();
             IRepository<PlayerModel> playerRepository = new PlayerRepository(playerMapper);
 
-            IPlayerInventoryRepository playerItemRepository = new PlayerInventoryRepository(itemMapper);
-            IMapper<OwnedItem, OwnedItemModel> ownedItemMapper = new OwnedItemMapper();
+            IPlayerItemRepository playerItemRepository = new PlayerItemRepository(itemMapper);
+            IMapper<PlayerItem, PlayerItemModel> ownedItemMapper = new PlayerItemMapper();
 
+            IMapper<Auction, AuctionModel> auctionMapper = new AuctionMapper();
+            IAuctionRepository auctionRepository = new AuctionRepository(auctionMapper);
             DomainController domainController = new DomainController(
                 rarityRepository,
                 rarityMapper,
@@ -38,7 +40,9 @@ namespace AuctionHouse.WPFPresentation
                 playerRepository,
                 playerMapper,
                 playerItemRepository,   
-                ownedItemMapper         
+                ownedItemMapper,
+                auctionMapper,
+                auctionRepository
             );
 
 

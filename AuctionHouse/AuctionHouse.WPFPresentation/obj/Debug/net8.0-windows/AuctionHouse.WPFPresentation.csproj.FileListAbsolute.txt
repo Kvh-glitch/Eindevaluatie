@@ -145,3 +145,5 @@ C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionH
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\obj\Debug\net8.0-windows\View\ItemWindow.g.cs
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\obj\Debug\net8.0-windows\View\PlayerWindow.baml
 C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\obj\Debug\net8.0-windows\View\PlayerWindow.g.cs
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\obj\Debug\net8.0-windows\View\AuctionWindow.baml
+C:\hogent\jaar 3\programmeren gevorderd 1\EvaluatieGitHub\Eindevaluatie\AuctionHouse\AuctionHouse.WPFPresentation\obj\Debug\net8.0-windows\View\AuctionWindow.g.cs

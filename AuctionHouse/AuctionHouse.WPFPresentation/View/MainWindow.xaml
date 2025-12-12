@@ -22,8 +22,13 @@
             Margin="0,0,10,0"
             Click="ShowItems_Click"/>
             <Button Content="Show Players"
-            Width="120"
+            Width="116"
+            Margin="0,0,10,0"
             Click="ShowPlayers_Click"/>
+            <Button Content="Show Auctions"
+        Width="130"
+        Margin="0,0,0,0"
+        Click="ShowAuctions_Click" Height="32" RenderTransformOrigin="0.788,0.547"/>
         </StackPanel>
         <ListBox x:Name="RarityListBox"
                  Grid.Row="2"/>

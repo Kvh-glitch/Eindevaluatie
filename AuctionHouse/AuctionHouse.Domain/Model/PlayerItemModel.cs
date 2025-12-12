@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AuctionHouse.Domain.Model
 {
-    public class OwnedItemModel
+    public class PlayerItemModel
     {
         public int Id { get; }
         public int PlayerId { get; }
         public ItemModel Item { get; }
 
-        public OwnedItemModel(int id, int playerId, ItemModel item)
+        public PlayerItemModel(int id, int playerId, ItemModel item)
         {
             if (playerId <= 0)
                 throw new ArgumentOutOfRangeException(nameof(playerId));

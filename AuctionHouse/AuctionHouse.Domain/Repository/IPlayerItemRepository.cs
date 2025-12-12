@@ -8,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace AuctionHouse.Domain.Repository
 {
-    public interface IPlayerInventoryRepository : IRepository<OwnedItemModel>
+    public interface IPlayerItemRepository : IRepository<PlayerItemModel>
     {
-        Collection<OwnedItemModel> GetByPlayerId(int playerId);
+        Collection<PlayerItemModel> GetByPlayerId(int playerId);
+        void AddItem(int playerId, int itemId);
+        void DeleteItem(int playerId, int itemId);
     }
 }

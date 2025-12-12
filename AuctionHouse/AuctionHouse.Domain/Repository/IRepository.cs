@@ -18,5 +18,6 @@ namespace AuctionHouse.Domain.Repository
 
         public Collection<M> GetAll();
         public M GetById(int id);
+        
     }
 }

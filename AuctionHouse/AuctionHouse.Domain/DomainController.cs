@@ -19,8 +19,10 @@ namespace AuctionHouse.Domain
         private readonly IMapper<Item, ItemModel> _itemMapper;
         private readonly IRepository<PlayerModel> _playerRepository;
         private readonly IMapper<Player, PlayerModel> _playerMapper;
-        private readonly IPlayerInventoryRepository _playerItemRepository;
-        private readonly IMapper<OwnedItem, OwnedItemModel> _ownedItemMapper;
+        private readonly IPlayerItemRepository _playerItemRepository;
+        private readonly IMapper<PlayerItem, PlayerItemModel> _ownedItemMapper;
+        private readonly IMapper<Auction, AuctionModel> _auctionMapper;
+        private readonly IAuctionRepository _auctionRepository;
 
 
         public DomainController(
@@ -30,8 +32,10 @@ namespace AuctionHouse.Domain
             IMapper<Item, ItemModel> itemMapper,
             IRepository<PlayerModel> playerRepository,
             IMapper<Player, PlayerModel> playerMapper,
-            IRepository<OwnedItemModel> playerItemRepository,
-            IMapper<OwnedItem, OwnedItemModel> ownedItemMapper)
+            IRepository<PlayerItemModel> playerItemRepository,
+            IMapper<PlayerItem, PlayerItemModel> ownedItemMapper,
+            IMapper<Auction, AuctionModel> auctionMapper,
+            IAuctionRepository auctionRepository)
         {
             _rarityRepository = rarityRepository ?? throw new ArgumentNullException(nameof(rarityRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
@@ -39,8 +43,10 @@ namespace AuctionHouse.Domain
             _itemMapper = itemMapper;
             _playerRepository = playerRepository;
             _playerMapper = playerMapper;
-            _playerItemRepository = (IPlayerInventoryRepository)playerItemRepository;
+            _playerItemRepository = (IPlayerItemRepository)playerItemRepository;
             _ownedItemMapper = ownedItemMapper;
+            _auctionMapper = auctionMapper;
+            _auctionRepository = auctionRepository;
         }
 
 
@@ -63,9 +69,9 @@ namespace AuctionHouse.Domain
             return _playerMapper.MapToDto(models);
         }
 
-        public Collection<OwnedItem> GetInventoryForPlayer(int playerId)
+        public Collection<PlayerItem> GetInventoryForPlayer(int playerId)
         {
-            Collection<OwnedItemModel> models = _playerItemRepository.GetByPlayerId(playerId);
+            Collection<PlayerItemModel> models = _playerItemRepository.GetByPlayerId(playerId);
             var dtos = _ownedItemMapper.MapToDto(models);
             var stacked = dtos
                 .GroupBy(x => x.ItemId)
@@ -76,9 +82,37 @@ namespace AuctionHouse.Domain
                     return first;
                 });
             
-            return new Collection<OwnedItem>(stacked.ToList());
+            return new Collection<PlayerItem>(stacked.ToList());
         }
 
+        public void GiveRandomItemToPlayer(int playerId)
+        {   
+            Collection<ItemModel> items = _itemRepository.GetAll();
+            if (items.Count == 0)
+            {
+                throw new InvalidOperationException("No items available to give.");
+            }
+            Random random = new Random();
+            int index = random.Next(items.Count);
+            int itemId = items[index].Id;
 
+            _playerItemRepository.AddItem(playerId, itemId);
+        }
+
+        public void RemoveItemFromPlayer(int playerId, int itemId)
+        {
+            _playerItemRepository.DeleteItem(playerId, itemId);
+        }
+
+        public Collection<Auction> GetActiveAuctions()
+        {
+            var models = _auctionRepository.GetActiveAuctions();
+            return _auctionMapper.MapToDto(models);
+        }
+
+        public bool AuctionExistsForPlayerItem(int playerItemId)
+        {
+            return _auctionRepository.ExistsActiveAuctionForPlayerItem(playerItemId);
+        }
     }
 }

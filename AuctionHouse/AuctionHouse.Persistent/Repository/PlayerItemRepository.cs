@@ -10,40 +10,75 @@ using System.Threading.Tasks;
 using AuctionHouse.Domain.DTO;
 using AuctionHouse.Persistent.DbConnection;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace AuctionHouse.Persistent.Repository
 {
-    public class PlayerInventoryRepository : IPlayerInventoryRepository
+    public class PlayerItemRepository : IPlayerItemRepository
     {
         private readonly IMapper<Item, ItemModel> _itemMapper;
-        public PlayerInventoryRepository(IMapper<Item, ItemModel> itemMapper)
+        public PlayerItemRepository(IMapper<Item, ItemModel> itemMapper)
         {
             _itemMapper = itemMapper;
         }
 
-        public OwnedItemModel Add(OwnedItemModel model)
+        public PlayerItemModel Add(PlayerItemModel model)
         {
             throw new NotImplementedException();
         }
 
-        public OwnedItemModel Delete(OwnedItemModel model)
+        public void AddItem(int playerId, int itemId)
+        {
+            using (var connection = DataBaseConnection.CreateConnection())
+            {
+                connection.Open();
+
+                using (var cmd = new SqlCommand(
+                    "INSERT INTO PlayerItems (PlayerId, ItemId) VALUES (@playerId, @itemId);",
+                    connection))
+                {
+                    cmd.Parameters.Add(new SqlParameter("@playerId", SqlDbType.Int) { Value = playerId });
+                    cmd.Parameters.Add(new SqlParameter("@itemId", SqlDbType.Int) { Value = itemId });
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public PlayerItemModel Delete(PlayerItemModel model)
         {
             throw new NotImplementedException();
         }
 
-        public Collection<OwnedItemModel> GetAll()
+        public void DeleteItem(int playerId, int itemId)
+        {
+            using (var connection = DataBaseConnection.CreateConnection())
+            {
+                connection.Open();
+                using (var cmd = new SqlCommand(
+                    "DELETE TOP (1) FROM PlayerItems WHERE PlayerId = @playerId AND ItemId = @itemId;",
+                    connection))
+                {
+                    cmd.Parameters.Add(new SqlParameter("@playerId", SqlDbType.Int) { Value = playerId });
+                    cmd.Parameters.Add(new SqlParameter("@itemId", SqlDbType.Int) { Value = itemId });
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public Collection<PlayerItemModel> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public OwnedItemModel GetById(int id)
+        public PlayerItemModel GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Collection<OwnedItemModel> GetByPlayerId(int playerId)
+        public Collection<PlayerItemModel> GetByPlayerId(int playerId)
         {
-            var inventory = new Collection<OwnedItemModel>();
+            var inventory = new Collection<PlayerItemModel>();
             using (var connection = DataBaseConnection.CreateConnection())
             {
                 connection.Open();
@@ -59,7 +94,7 @@ namespace AuctionHouse.Persistent.Repository
                       JOIN Rarities r ON i.RarityId = r.Id
                       WHERE pi.PlayerId = @PlayerId",
                     connection);
-                command.Parameters.AddWithValue("@PlayerId", playerId);
+                command.Parameters.Add(new SqlParameter("@PlayerId", SqlDbType.Int) { Value = playerId });
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -81,7 +116,7 @@ namespace AuctionHouse.Persistent.Repository
 
                         ItemModel itemModel = _itemMapper.MapToModel(itemDto);
 
-                        inventory.Add(new OwnedItemModel(ownedId, pId, itemModel));
+                        inventory.Add(new PlayerItemModel(ownedId, pId, itemModel));
                     }
                 }
 
@@ -89,7 +124,7 @@ namespace AuctionHouse.Persistent.Repository
             return inventory;
         }
 
-        public OwnedItemModel Update(OwnedItemModel model)
+        public PlayerItemModel Update(PlayerItemModel model)
         {
             throw new NotImplementedException();
         }

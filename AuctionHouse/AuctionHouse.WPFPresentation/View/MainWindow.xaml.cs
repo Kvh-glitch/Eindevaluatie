@@ -60,5 +60,12 @@ namespace AuctionHouse.WPFPresentation.View
             var win = new PlayerWindow(_domainController);
             win.Show();
         }
+
+        private void ShowAuctions_Click(object sender, RoutedEventArgs e)
+        {
+            var win = new AuctionWindow(_domainController);
+            win.Show();
+        }
+
     }
 }

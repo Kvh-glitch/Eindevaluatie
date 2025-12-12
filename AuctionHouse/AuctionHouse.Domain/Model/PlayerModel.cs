@@ -26,22 +26,22 @@ namespace AuctionHouse.Domain.Model
             Name = name.Trim();
             Gold = gold;
         }
+        // moet naar domeinlaag verhuizen
+        //public void AddGold(int amount)
+        //{
+        //    if (amount < 0)
+        //        throw new ArgumentOutOfRangeException(nameof(amount), "Amount to add cannot be negative.");
+        //    Gold += amount;
+        //}
 
-        public void AddGold(int amount)
-        {
-            if (amount < 0)
-                throw new ArgumentOutOfRangeException(nameof(amount), "Amount to add cannot be negative.");
-            Gold += amount;
-        }
-
-        public void SubtractGold(int amount)
-        {
-            if (amount < 0)
-                throw new ArgumentOutOfRangeException(nameof(amount), "Amount to subtract cannot be negative.");
-            if (amount > Gold)
-                throw new InvalidOperationException("Insufficient gold to subtract the specified amount.");
-            Gold -= amount;
-        }
+        //public void SubtractGold(int amount)
+        //{
+        //    if (amount < 0)
+        //        throw new ArgumentOutOfRangeException(nameof(amount), "Amount to subtract cannot be negative.");
+        //    if (amount > Gold)
+        //        throw new InvalidOperationException("Insufficient gold to subtract the specified amount.");
+        //    Gold -= amount;
+        //}
 
     }
 }

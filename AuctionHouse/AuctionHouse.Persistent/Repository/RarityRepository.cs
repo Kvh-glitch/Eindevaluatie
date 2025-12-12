@@ -38,7 +38,7 @@ namespace AuctionHouse.Persistent.Repository
 
         
 
-        public Collection<RarityModel> GetAll() // Nu return je RarityModel!
+        public Collection<RarityModel> GetAll() 
         {
             var models = new Collection<RarityModel>();
 
@@ -50,16 +50,15 @@ namespace AuctionHouse.Persistent.Repository
                 {
                     while (reader.Read())
                     {
-                        // 1. Maak EERST de DTO aan (dit is je platte datastructuur)
-                        var rarityDto = new Rarity // Rarity is de DTO
+                        
+                        var rarityDto = new Rarity 
                         {
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             BaseCost = reader.GetInt32(2)
                         };
 
-                        // 2. GEBRUIK de geïnjecteerde mapper om de DTO naar het Model te converteren
-                        // Dit activeert de validatie in de RarityModel-constructor.
+                       
                         RarityModel model = _mapper.MapToModel(rarityDto);
 
                         models.Add(model);

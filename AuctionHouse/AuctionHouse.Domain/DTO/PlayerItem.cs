@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AuctionHouse.Domain.DTO
 {
-    public class OwnedItem
+    public class PlayerItem
     {
         public int Id { get; set; }
         public int PlayerId { get; set; }

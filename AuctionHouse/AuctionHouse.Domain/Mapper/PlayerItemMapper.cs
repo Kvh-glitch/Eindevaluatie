@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace AuctionHouse.Domain.Mapper
 {
-    public class OwnedItemMapper : IMapper<OwnedItem, OwnedItemModel>
+    public class PlayerItemMapper : IMapper<PlayerItem, PlayerItemModel>
     {
-        public OwnedItem MapToDto(OwnedItemModel model)
+        public PlayerItem MapToDto(PlayerItemModel model)
         {
             if (model == null)
                 throw new ArgumentNullException(nameof(model), "Model cannot be null.");
-            return new OwnedItem
+            return new PlayerItem
             {
                 Id = model.Id,
                 PlayerId = model.PlayerId,
@@ -26,9 +26,9 @@ namespace AuctionHouse.Domain.Mapper
             };
         }
 
-        public Collection<OwnedItem> MapToDto(Collection<OwnedItemModel> models)
+        public Collection<PlayerItem> MapToDto(Collection<PlayerItemModel> models)
         {
-            var dtos = new Collection<OwnedItem>();
+            var dtos = new Collection<PlayerItem>();
             foreach (var model in models)
             {
                 dtos.Add(MapToDto(model));
@@ -36,12 +36,12 @@ namespace AuctionHouse.Domain.Mapper
             return dtos;
         }
 
-        public OwnedItemModel MapToModel(OwnedItem dto)
+        public PlayerItemModel MapToModel(PlayerItem dto)
         {
             throw new NotImplementedException();
         }
 
-        public Collection<OwnedItemModel> MapToModel(Collection<OwnedItem> dtos)
+        public Collection<PlayerItemModel> MapToModel(Collection<PlayerItem> dtos)
         {
             throw new NotImplementedException();
         }
